@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.content { clear:both; width: 100vw; overflow-x:hidden; 
+margin: 0; padding: 0; background-repeat: no-repeat;
+background-size:120% auto; background-position:center top;
+    border-bottom:1px solid #f1f1f1; }
+.vs { margin: 0; padding: 0; clear:both; width: 100vw; height:50vh; }
+.tit { text-align: center; line-height: 40vh; color:#fff;
+font-size:90px; text-shadow:1px 1px 10px gold; }
+.page { clear: both; width: 100vw; height: 100vh; position:relative; 
+border-bottom:1px solid #f1f1f1; }
+.page_tit { text-align: center;  padding-top:190px; font-size:60px; 
+color:#075d46; }
+.page_wrap { width: 1280px; margin: 0 auto; }
+#page1 { background-color: #fff; }
