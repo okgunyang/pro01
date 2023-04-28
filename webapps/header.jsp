@@ -44,54 +44,54 @@
                     </a>
                     <nav class="gnb">
                         <ul class="gnb_fr">
-                            <li><a href="<%=path1 %>/company.jsp">솔루션</a>
+                            <li><a href="<%=path1 %>/company/company.jsp">솔루션</a>
                                 <div class="sub item1">
                                     <ul class="dp2">
-                                        <li><a href="<%=path1 %>/company.jsp#page1">회사소개</a></li>
-                                        <li><a href="<%=path1 %>/company.jsp#page2">사업영역</a></li>
-                                        <li><a href="<%=path1 %>/company.jsp#page3">역량/인프라</a></li>
-                                        <li><a href="<%=path1 %>/company.jsp#page4">브랜드</a></li>
+                                        <li><a href="<%=path1 %>/company/company.jsp#page1">회사소개</a></li>
+                                        <li><a href="<%=path1 %>/company/company.jsp#page2">사업영역</a></li>
+                                        <li><a href="<%=path1 %>/company/company.jsp#page3">역량/인프라</a></li>
+                                        <li><a href="<%=path1 %>/company/company.jsp#page4">브랜드</a></li>
                                     </ul>
                                 </div>
                             </li>
-                            <li><a href="<%=path1 %>/manage.jsp">지속가능경영</a>
+                            <li><a href="<%=path1 %>/manage/manage.jsp">지속가능경영</a>
                                 <div class="sub item2">
                                     <ul class="dp2">
-                                        <li><a href="<%=path1 %>/manage.jsp#page1">전략</a></li>
-                                        <li><a href="<%=path1 %>/manage.jsp#page2">주요활동 및 성과</a></li>
-                                        <li><a href="<%=path1 %>/manage.jsp#page3">윤리경영</a></li>
-                                        <li><a href="<%=path1 %>/manage.jsp#page4">사회공헌</a></li>
-                                        <li><a href="<%=path1 %>/manage.jsp#page5">보고서 및 정책</a></li>
+                                        <li><a href="<%=path1 %>/manage/manage.jsp#page1">전략</a></li>
+                                        <li><a href="<%=path1 %>/manage/manage.jsp#page2">주요활동 및 성과</a></li>
+                                        <li><a href="<%=path1 %>/manage/manage.jsp#page3">윤리경영</a></li>
+                                        <li><a href="<%=path1 %>/manage/manage.jsp#page4">사회공헌</a></li>
+                                        <li><a href="<%=path1 %>/manage/manage.jsp#page5">보고서 및 정책</a></li>
                                     </ul>
                                 </div>
                             </li>
-                            <li><a href="<%=path1 %>/newsroom.jsp">뉴스룸</a>
+                            <li><a href="<%=path1 %>/board/newsroom.jsp">뉴스룸</a>
                                 <div class="sub item3">
                                     <ul class="dp2">
-                                        <li><a href="<%=path1 %>/newsroom.jsp#page1">보도자료</a></li>
-                                        <li><a href="<%=path1 %>/newsroom.jsp#page2">미디어</a></li>
-                                        <li><a href="<%=path1 %>/newsroom.jsp#page3">홍보영상/브로슈어</a></li>
-                                        <li><a href="<%=path1 %>/newsroom.jsp#page4">공지사항</a></li>
+                                        <li><a href="<%=path1 %>/board/newsroom.jsp#page1">보도자료</a></li>
+                                        <li><a href="<%=path1 %>/board/newsroom.jsp#page2">미디어</a></li>
+                                        <li><a href="<%=path1 %>/board/newsroom.jsp#page3">홍보영상/브로슈어</a></li>
+                                        <li><a href="<%=path1 %>/board/newsroom.jsp#page4">공지사항</a></li>
                                     </ul>
                                 </div>
                             </li>
-                            <li><a href="<%=path1 %>/info.jsp">투자정보</a>
+                            <li><a href="<%=path1 %>/invest/info.jsp">투자정보</a>
                                 <div class="sub item4">
                                     <ul class="dp2">
-                                        <li><a href="<%=path1 %>/info.jsp#page1">경영정보</a></li>
-                                        <li><a href="<%=path1 %>/info.jsp#page2">주가정보</a></li>
-                                        <li><a href="<%=path1 %>/info.jsp#page3">재무정보</a></li>
-                                        <li><a href="<%=path1 %>/info.jsp#page4">IR 자료실</a></li>
+                                        <li><a href="<%=path1 %>/invest/info.jsp#page1">경영정보</a></li>
+                                        <li><a href="<%=path1 %>/invest/info.jsp#page2">주가정보</a></li>
+                                        <li><a href="<%=path1 %>/invest/info.jsp#page3">재무정보</a></li>
+                                        <li><a href="<%=path1 %>/invest/info.jsp#page4">IR 자료실</a></li>
                                     </ul>
                                 </div>
                             </li>
-                            <li><a href="<%=path1 %>/emp.jsp">채용</a>
+                            <li><a href="<%=path1 %>/career/emp.jsp">채용</a>
                                 <div class="sub item5">
                                     <ul class="dp2">
-                                        <li><a href="<%=path1 %>/emp.jsp#page1">인사정보</a></li>
-                                        <li><a href="<%=path1 %>/emp.jsp#page2">CJ프레시웨어人</a></li>
-                                        <li><a href="<%=path1 %>/emp.jsp#page3">채용정보</a></li>
-                                        <li><a href="<%=path1 %>/emp.jsp#page4">인재 POOL</a></li>
+                                        <li><a href="<%=path1 %>/career/emp.jsp#page1">인사정보</a></li>
+                                        <li><a href="<%=path1 %>/career/emp.jsp#page2">CJ프레시웨어人</a></li>
+                                        <li><a href="<%=path1 %>/career/emp.jsp#page3">채용정보</a></li>
+                                        <li><a href="<%=path1 %>/career/emp.jsp#page4">인재 POOL</a></li>
                                     </ul>
                                 </div>
                             </li>

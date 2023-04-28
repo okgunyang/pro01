@@ -35,15 +35,24 @@ padding-top:6em;  padding-left: 2em; font-size:30px; box-sizing:border-box; }
 .grid2 .grid_box li .grid_com { font-size:16px; }
 
 /* 3컬럼 */
-.grid3 { clear:both; width: 1280px; }
-.grid3 .grid_box { clear:both; width: 1280px; padding-top: 40px; }
-.grid3 .grid_box li { width: 410px; margin-right: 25px; float:left; height: 624px; }
+.grid3 { clear:both; width: 1280px; margin:0 auto; }
+.grid3:after { content:""; display:block; width:100%; clear:both; }
+.grid_box:after { content:""; display:block; width:100%; clear:both; }
+.grid3 .grid_box { clear:both; width: 1280px; padding-top: 40px; margin:0 auto; }
+.grid3 .grid_box li { width: 410px; margin-right: 25px; float:left; height:400px; }
 .grid3 .grid_box li:last-child { margin-right: 0; }
-.grid3 .grid_box li a { display:block; color:#fff; background-position:center center; 
+.grid3 .grid_box li a { display:block; color:#333; background-position:center center; 
 background-repeat: no-repeat; border-radius:40px; margin-top: 25px; min-height: 300px;
-padding-top:6em;  padding-left: 2em; font-size:30px; box-sizing:border-box; }
-.grid3 .grid_box li .grid_tit { line-height: 1.8; }
-.grid3 .grid_box li .grid_com { font-size:16px; }
+padding:14px; font-size:30px; box-sizing:border-box; overflow:hidden; }
+.grid3 .grid_box li img { display:block; width:100%; height:auto; }
+.grid3 .grid_box li .grid_pic { display:block; width:100%; height:auto; }
+.grid3 .grid_box li .grid_tit { display:block; line-height: 1.8; 
+  overflow: hidden;  text-overflow: ellipsis;  display: -webkit-box;  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical; }
+.grid3 .grid_box li .grid_com { display:block; font-size:16px; 
+  overflow: hidden;  text-overflow: ellipsis;  display: -webkit-box;  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical; }
+.grid3 .grid_box li .grid_date { display:block; color:#999; line-height:1.8; }
 
 /* 4컬럼 */
 .grid4 { clear:both; width: 1280px; }

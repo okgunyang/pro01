@@ -18,6 +18,10 @@ create table board(
 	constraint b_fk FOREIGN KEY (author) REFERENCES member(id)
 );
 
+alter table board drop constraint b_fk;
+
+select * from board;
+
 -- 샘플 데이터 입력
 insert into member values('admin','1234','관리자','admin@company.com','010-1234-1234','고양시 덕양구',default,default);
 
